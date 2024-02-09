@@ -7,7 +7,7 @@ void main() {
       stdout.write(" ");
     }
     for (int z = 1; z < i; z++) {
-      stdout.write(" $count");
+      stdout.write(" $count ");
 
       count++;
     }
