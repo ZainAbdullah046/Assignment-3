@@ -1,10 +1,3 @@
-import 'dart:io';
-
-void main() {
-  int limit = 10;
-  printFibonacciSequence(limit);
-}
-
 void printFibonacciSequence(int limit) {
   int prev = 0;
   int current = 1;
@@ -18,4 +11,9 @@ void printFibonacciSequence(int limit) {
     prev = current;
     current = next;
   }
+}
+
+void main() {
+  int limit = 10;
+  printFibonacciSequence(limit);
 }
